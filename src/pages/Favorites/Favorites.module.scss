@@ -1,0 +1,17 @@
+.Favorites {
+  padding: 8px;
+}
+
+.FavoritesList.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  justify-items: center;
+}
+
+.FavoritesList.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  justify-items: center;
+}

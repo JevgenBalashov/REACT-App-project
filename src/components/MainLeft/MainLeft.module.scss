@@ -1,0 +1,39 @@
+@import '../../styles/mixins.scss';
+
+.MainLeft {
+  @include adaptiv-value('min-width', 200, 140, 1);
+  background: #9f9f9f;
+  padding: 8px 8px 12px;
+  border-radius: 15px;
+}
+
+h1 {
+  margin: 0 0 16px;
+  background-color: #8f8f8f;
+  border-radius: 15px;
+  letter-spacing: 0.8px;
+}
+
+.filter_body {
+  padding-left: 12px;
+}
+
+.filter_item {
+  list-style: none;
+  padding: 5px;
+  margin-bottom: 5px;
+  transition: all 300ms ease;
+}
+
+.filter_item:first-child {
+  margin-top: 20px;
+}
+
+.filter_item:hover {
+  background-color: #8f8f8f;
+  border-radius: 10px;
+}
+
+.filter_item:last-child {
+  margin-bottom: 0px;
+}

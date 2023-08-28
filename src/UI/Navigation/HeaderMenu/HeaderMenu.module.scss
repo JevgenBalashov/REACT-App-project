@@ -1,0 +1,17 @@
+.HeaderMenu {
+  flex: 1 1 auto;
+}
+
+.HeaderMenu__list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.HeaderMenu__item {
+  list-style: none;
+  a {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

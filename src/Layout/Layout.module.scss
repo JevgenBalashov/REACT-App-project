@@ -1,0 +1,33 @@
+.container {
+  min-width: var(--min-content);
+  max-width: var(--max-content);
+  width: 100%;
+  padding: 0 var(--container-padding);
+  margin: 0 auto;
+  display: flex;
+  flex-grow: 1;
+}
+
+.Header,
+.Main,
+.Footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header,
+.Footer {
+  background: #9f9f9f;
+}
+
+.Main {
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 auto;
+}
+
+.Footer {
+  margin-top: auto;
+}
