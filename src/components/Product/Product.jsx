@@ -1,11 +1,6 @@
 import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
-// import {
-//   handleAddBasketClick,
-//   handleDeleteBasketClick,
-//   handleFavoritesClick,
-// } from 'src/redux/reducers/productsReducer';
 import {
   handleAddBasketClick,
   handleDeleteBasketClick,
