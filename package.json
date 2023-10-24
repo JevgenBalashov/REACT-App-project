@@ -1,5 +1,4 @@
 {
-  "homepage": "https://JevgenBalashov.github.io/JevgenBalashov.github.io",
   "name": "homework6",
   "version": "0.1.0",
   "private": true,
@@ -45,7 +44,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0",
     "redux-mock-store": "^1.5.4",
     "sass": "^1.58.3"
   }

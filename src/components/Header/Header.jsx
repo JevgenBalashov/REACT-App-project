@@ -9,10 +9,8 @@ import { ToggleProductsViewContext } from 'src/contexts/contexts';
 import styles from './Header.module.scss';
 
 export const Header = () => {
-  // get toggleViewProducts from context
   const { toggleView, setToggleView } = useContext(ToggleProductsViewContext);
 
-  // set toggleViewProducts
   const handleToggleView = (e) => {
     setToggleView(!toggleView);
   };
